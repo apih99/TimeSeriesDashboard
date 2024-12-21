@@ -295,3 +295,15 @@ if uploaded_file is not None and selected_columns:
             st.subheader("Best Models by Metric")
             for metric, (model, value) in best_models.items():
                 st.success(f"Best model for {metric}: {model} ({value:.2f})")
+
+# Add footer with creator information
+st.markdown("---")  # Horizontal line
+st.markdown(
+    """
+    <div style='text-align: center; padding: 20px; color: #666;'>
+        <p>Created by <b>Hafiz</b></p>
+        <p style='font-size: 0.8em;'>Time Series Forecasting Dashboard © 2024</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
