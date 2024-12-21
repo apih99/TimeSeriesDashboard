@@ -23,8 +23,8 @@ An interactive web application for time series forecasting using multiple models
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/apih99/TimeSeriesDashboard.git
+cd TimeSeriesDashboard
 ```
 
 2. Install the required packages:
